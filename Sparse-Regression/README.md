@@ -1,4 +1,4 @@
-# Sparse Regression (スパース回帰)(Sparse-Regression)
+# Sparse Regression (スパース回帰)
 
 ガウスカーネルモデルに対する交互方向乗数法を用いたスパース回帰の交差確認法を行った．
 
