@@ -51,7 +51,7 @@ def predict(x, theta):
     phi = build_design_matrix(x)
     return phi.dot(theta)
 
-def visualize(x, y, theta, x_min=-4., x_max=4., filename='kadai4-3.png'):
+def visualize(x, y, theta, name, x_min=-4., x_max=4.):
     X = np.linspace(x_min, x_max, 1000)
     Y = predict(X, theta)
     plt.clf()
@@ -61,10 +61,11 @@ def visualize(x, y, theta, x_min=-4., x_max=4., filename='kadai4-3.png'):
     plt.ylim(-4.5, 3.5)
     plt.plot(X, Y, color='green')
     plt.scatter(x, y, c='blue', marker='o')
-    plt.savefig(filename)
+    plt.title(name)
+    plt.savefig('output-%s.png' % name)
 
 x, y = generate_sample()
 theta_h = huber(x, y, eta=1.)
-visualize(x, y, theta_h, filename='output-huber.png')
+visualize(x, y, theta_h, 'huber')
 theta_t = tukey(x, y, eta=1.)
-visualize(x, y, theta_t, filename='output-tukey.png')
+visualize(x, y, theta_t, 'tukey')
