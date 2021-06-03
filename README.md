@@ -2,9 +2,9 @@
 
 機械学習の手法のスクラッチ実装
 
-- **Least Squares Regression** (最小二乗回帰)
+- [**Least Squares Regression** (最小二乗回帰)](Least-Squares-Regression)
     - ガウスカーネルモデルに対する l2 正則化を用いた最小二乗回帰の交差確認法
-- **Sparse Regression** (スパース回帰)
+- [**Sparse Regression** (スパース回帰)]()
     - ガウスカーネルモデルに対する交互方向乗数法を用いたスパース回帰の交差確認法
 - **Robust Regression** (ロバスト回帰)
     - 直線モデルに対するフーバー回帰及びテューキー回帰の繰り返し最小二乗アルゴリズム
