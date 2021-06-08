@@ -16,3 +16,7 @@
     - 線形モデルに対するサポートベクトルマシンの劣勾配アルゴリズム
 - [**Least Squares Stochastic Classification** (最小二乗確率的分類)](Least-Squares-Stochastic-Classification)
     - ガウスカーネルモデルに対する最小二乗確率的分類
+- [**Semi-Supervised Learning** (半教師あり学習)](Semi-Supervised-Learning)
+    - ガウスカーネルモデルに対するラプラス正則化最小二乗分類
+- [**Transfer Learning** (転移学習)](Transfer-Learning)
+    - 線形モデルに対するクラス比重み付き最小二乗法
