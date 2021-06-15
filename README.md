@@ -20,5 +20,5 @@
     - ガウスカーネルモデルに対するラプラス正則化最小二乗分類
 - [**Transfer Learning** (転移学習)](Transfer-Learning)
     - 線形モデルに対するクラス比重み付き最小二乗法
-- [**Locality Preserving Projection** (局所性保存射影)](Transfer-Locality-Preserving-Projection)
+- [**Locality Preserving Projection** (局所性保存射影)](Locality-Preserving-Projection)
     - ガウシアン類似度行列に対する局所性保存射影

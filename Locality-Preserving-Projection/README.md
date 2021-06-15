@@ -3,7 +3,7 @@
 ガウシアン類似度行列に対する局所性保存射影を実装した．<br>
 行列の各要素は具体的には以下のようになっている．
 
-<img src="https://render.githubusercontent.com/render/math?math=W_{i, i^\prime} = \exp{(- \|\bm{x}_i - \bm{x}_{i^\prime} \|^2)}">
+<img src="https://render.githubusercontent.com/render/math?math=W_{i, j} = \exp{(- \|\boldsymbol{x}_i - \boldsymbol{x}_{j} \|^2)}">
 
 青の best-1 が最適な射影を表す．
 - data1: 1つしかクラスタなく，横長のクラスタになっているので横向きに分割されている．
