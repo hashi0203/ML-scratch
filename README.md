@@ -2,6 +2,30 @@
 
 機械学習の手法のスクラッチ実装
 
+- [**Backtracking Line Search** (バックトラック直線探索)](Backtracking-Line-Search)
+    - <img src="https://render.githubusercontent.com/render/math?math=f%28x_1%2Cx_2%29%3D10%28x_1%29%5E2%2B%28x_2%29%5E2%0A" alt="f(x_1,x_2)=10(x_1)^2+(x_2)^2"> に対するバックトラック直線探索を用いた勾配法
+- [**Dual Ascent Method** (双対上昇法)](Dual-Ascent-Method)
+    - <img src="https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cmin_%7Bx%2C+y+%5Cin+%5Cmathbb%7BR%7D%7D%7B3+x%5E2+%2B+2y%5E2%7D" alt="\min_{x, y \in \mathbb{R}}{3 x^2 + 2y^2}"> subject to <img src="https://render.githubusercontent.com/render/math?math=%5Ctextstyle+x+%2B+y+%3D+1" alt="x + y = 1"> に対する双対上昇法
+- [**Augmented Lagrangian Algorithm** (拡張ラグランジュ乗数法)](Augmented-Lagrangian-Algorithm)
+    - <img src="https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cmin_%7Bx%2C+y+%5Cin+%5Cmathbb%7BR%7D%7D%7B3+x%5E2+%2B+2y%5E2%7D" alt="\min_{x, y \in \mathbb{R}}{3 x^2 + 2y^2}"> subject to <img src="https://render.githubusercontent.com/render/math?math=%5Ctextstyle+x+%2B+y+%3D+1" alt="x + y = 1"> に対する拡張ラグランジュ乗数法
+- [**Projected Gradient Method** (射影勾配法)](Projected-Gradient-Method)
+    - <img src="https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cmin_%7Bx%2C+y+%5Cin+%5Cmathbb%7BR%7D%7D%7B3+x%5E2+%2B+2y%5E2%7D" alt="\min_{x, y \in \mathbb{R}}{3 x^2 + 2y^2}"> subject to <img src="https://render.githubusercontent.com/render/math?math=%5Ctextstyle+x+%2B+y+%3D+1" alt="x + y = 1"> に対する射影勾配法
+- [**K-Means Clustering** (k 平均クラスタリング)](K-Means-Clustering)
+    - `iris` のデータセットに対する k 平均クラスタリング
+- [**Linear Discriminant Analysis** (線形判別分析)](Linear-Discriminant-Analysis)
+    - 線形判別分析を用いた手書き数字のパターン認識
+    - `digit.mat` を使用
+- [**Projection Pursuit** (射影追跡)](Projection-Pursuit)
+    - 近似ニュートンアルゴリズムを用いた射影追跡
+- [**Expectation-Maximization Algorithm** (EM アルゴリズム)](Expectation-Maximization-Algorithm)
+    - ガウス混合モデルに対する EM アルゴリズム
+- [**Kernel Density Estimation** (カーネル密度推定法)](Kernel-Density-Estimation)
+    - ガウスカーネルに対するカーネル密度推定法
+- [**K-Nearest Neighbor Classification** (k 近傍識別)](K-Nearest-Neighbor-Classification)
+    - k 近傍識別器を用いた手書き数字のパターン認識
+    - `digit.mat` を使用
+- [**Probabilistic Matrix Factorization** (確率的行列分解)](Probabilistic-Matrix-Factorization)
+    - 確率的行列分解を用いた映画の推薦データの補間
 - [**Least Squares Regression** (最小二乗回帰)](Least-Squares-Regression)
     - ガウスカーネルモデルに対する l2 正則化を用いた最小二乗回帰の交差確認法
 - [**Sparse Regression** (スパース回帰)](Sparse-Regression)
@@ -22,3 +46,5 @@
     - 線形モデルに対するクラス比重み付き最小二乗法
 - [**Locality Preserving Projection** (局所性保存射影)](Locality-Preserving-Projection)
     - ガウシアン類似度行列に対する局所性保存射影
+- [**Fisher Discriminant Analysis** (フィッシャー判別分析)](Fisher-Discriminant-Analysis)
+    - 2クラスデータに対するフィッシャー判別分析

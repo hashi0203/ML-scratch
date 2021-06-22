@@ -1,4 +1,4 @@
-# Locality Preserving Projection
+# Locality Preserving Projection (局所性保存射影)
 
 ガウシアン類似度行列に対する局所性保存射影を実装した．<br>
 行列の各要素は具体的には以下のようになっている．
