@@ -48,3 +48,5 @@
     - ガウシアン類似度行列に対する局所性保存射影
 - [**Fisher Discriminant Analysis** (フィッシャー判別分析)](Fisher-Discriminant-Analysis)
     - 2クラスデータに対するフィッシャー判別分析
+- [**Multi-Layer Perceptron** (多層パーセプトロン)](Multi-Layer-Perceptron)
+    - MNIST データセットに対する多層パーセプトロン
