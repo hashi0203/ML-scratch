@@ -50,3 +50,9 @@
     - 2クラスデータに対するフィッシャー判別分析
 - [**Multi-Layer Perceptron** (多層パーセプトロン)](Multi-Layer-Perceptron)
     - MNIST データセットに対する多層パーセプトロン
+- [**MNIST Regularization** (正則化)](Regularization-MNIST)
+    - MNIST データセットの多層パーセプトロンに対する複数の正則化手法の比較
+- [**CIFAR-10 Regularization** (正則化)](Regularization-CIFAR10)
+    - CIFAR-10 データセットの ResNet50 に対する複数の正則化手法の比較
+- [**Autoencoder** (自己符号化器)](Autoencoder)
+    - MNIST データセットに対する自己符号化器によるノイズ除去
